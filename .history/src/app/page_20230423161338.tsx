@@ -11,7 +11,10 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <div className="pt-[200px]">
+    <div
+      className="pt-30s
+    "
+    >
       {/* <HomeHero
         title={"Neviete ako ďalej?"}
         image={"/homeBanner.jpg"}

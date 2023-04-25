@@ -11,8 +11,8 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <div className="pt-[200px]">
-      {/* <HomeHero
+    <>
+      <HomeHero
         title={"Neviete ako ďalej?"}
         image={"/homeBanner.jpg"}
         description={"Prídite k nám a váš život bude zdravo napredovať"}
@@ -44,8 +44,8 @@ export default function Home() {
             icon: <Phone size={30} className="stroke-primary" />,
           },
         ]}
-      /> */}
+      />
       {JSON.stringify(getHomeSchema())}
-    </div>
+    </>
   );
 }

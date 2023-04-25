@@ -11,7 +11,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <div className="pt-[200px]">
+    <>
       {/* <HomeHero
         title={"Neviete ako ďalej?"}
         image={"/homeBanner.jpg"}
@@ -46,6 +46,6 @@ export default function Home() {
         ]}
       /> */}
       {JSON.stringify(getHomeSchema())}
-    </div>
+    </>
   );
 }
