@@ -23,7 +23,7 @@ function Banner(props: BannerProps) {
                 <div className="text-2xl md:text-3xl font-bold leading-[3.4rem]">
                     {title}
                 </div>
-                <div className="text-sm my-3 md:my-4 md:mb-9 text-gray-500">
+                <div className="text-sm md:text-base my-3 md:my-4 md:mb-9 text-gray-500">
                     {description}
                 </div>
                 <Button text={button} color="primary.500"/>
