@@ -1,4 +1,3 @@
-"use client"
 import React from 'react';
 import {Callback} from "escalade";
 import Link from "next/link";
