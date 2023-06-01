@@ -23,14 +23,14 @@ module.exports = {
 
         },
       fontSize: {
-          '2xs': '.625rem',
-          'xs': '.75rem',
-          'sm': '.875rem',
-          'base': '1rem',
-          'lg': '1.125rem',
-          'xl': '1.5rem',
-          '2xl': '2rem',
-          '3xl': '2.5rem',
+          '2xs': '12.5px',
+          'xs': '14px',
+          'sm': '18px',
+          'base': '20px',
+          'lg': '24px',
+          'xl': '30px',
+          '2xl': '50px',
+          '3xl': '60px',
       },
         fontWeight: {
             'light': 300,

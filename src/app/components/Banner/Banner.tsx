@@ -20,7 +20,7 @@ function Banner(props: BannerProps) {
                 <div className="text-white text-xs bg-primary.500 rounded-full self-start px-2 my-3 md:my-4">
                     {badge}
                 </div>
-                <div className="text-2xl md:text-3xl font-bold leading-[3.4rem]">
+                <div className="text-2xl md:text-3xl font-bold leading-[4rem]">
                     {title}
                 </div>
                 <div className="text-sm md:text-base my-3 md:my-4 md:mb-9 text-gray-500">
@@ -32,7 +32,7 @@ function Banner(props: BannerProps) {
             <div>
                 <div className="bg-repeat dots w-[6rem] h-[3.2rem] relative z-0 ml-auto right-[-1.7rem] top-6"/>
                 <div className="flex flex-col col-span-1 relative h-[90vw] md:h-[35vw] z-10">
-                    <Image src={image} alt={"image banner"} fill objectFit='cover' className="rounded-xl"/>
+                    <Image src={image} alt={"image banner"} fill objectFit='cover' objectPosition="center" className="rounded-xl"/>
                 </div>
                 <div className="relative z-20 flex flex-row gap-5 top-[-2.8rem]">
                     <div className="relative z-20 bg-white rounded-xl p-4 flex flex-col gap-2 ml-auto">
