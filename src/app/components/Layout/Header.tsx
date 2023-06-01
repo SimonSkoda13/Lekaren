@@ -7,6 +7,7 @@ const data = {
     items: [{
         text: <span>Pon-Pia: <span className="text-primary.600">8:00 - 18:00</span></span>,
         icon: "/clock.svg",
+        href:"tel:0905123456"
     },
         {
             text: "0905 123 456",
@@ -50,7 +51,7 @@ function Header() {
             </div>
             <div className="hidden md:flex md:flex-row justify-between w-[50%]">
                 {data.items.map((item, index) => (
-                    <Link key={index} className="flex flex-row gap-2" href={}>
+                    <Link key={index} className="flex flex-row gap-2" href={item.href}>
                         <img src={item.icon} alt="icon"/>
                         <span className="text-xs font-extrabold">{item.text}</span>
                     </Link>
