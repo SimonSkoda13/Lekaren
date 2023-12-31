@@ -1,36 +1,35 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# :camera: Visualisation for pharmacy shop LEKAREŇ EUROPA 
+## How did I proceed?
 
-First, run the development server:
+Throughout the development of the two homepage versions for the pharmacy using Next.js, I gained invaluable insights and skills that have significantly broadened my understanding of web development.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+### Key techiques :rocket: :
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. **Design Adaptability**: Crafting two distinct design versions taught me the importance of flexible and adaptable UI/UX design in web development. I learned to consider various design elements like color schemes, layout structures, and user interaction patterns.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+2. **Next.js Proficiency**: Working with Next.js, I enhanced my skills in this framework. I learned to efficiently manage routes, components, and styles, providing a seamless user experience while maintaining a clean codebase.
 
-[http://localhost:3000/api/hello](http://localhost:3000/api/hello) is an endpoint that uses [Route Handlers](https://beta.nextjs.org/docs/routing/route-handlers). This endpoint can be edited in `app/api/hello/route.ts`.
+3. **Client-Centric Development**: This project underscored the importance of understanding and incorporating client feedback into the development process. It helped me improve my ability to translate client needs into functional designs.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+4. **Responsive Design Techniques**: I honed my skills in creating responsive designs that adapt to different screen sizes and devices, ensuring a consistent user experience across all platforms.
 
-## Learn More
+5. **Project Management**: Balancing two different design versions while adhering to deadlines improved my project management skills, including time management, task prioritization, and iterative development.
 
-To learn more about Next.js, take a look at the following resources:
+## Client Decisions
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+After reviewing both homepage versions, the client made some key decisions:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+1. **Design Choice**: The client preferred the modern and minimalistic approach of Version 2. They felt this design aligned better with their vision of presenting the pharmacy as a forward-thinking and user-friendly establishment.
 
-## Deploy on Vercel
+2. **Feature Integration**: Based on user feedback, the client decided to integrate certain elements from Version 1 into Version 2, such as the traditional navigation bar, which users found more intuitive.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+3. **Focus on Mobile Responsiveness**: Recognizing the increasing trend of mobile users, the client emphasized the need for a highly responsive mobile version of the homepage.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+4. **Future Updates**: The client expressed interest in regularly updating the website to keep up with design trends and user preferences, indicating a long-term engagement with the project.
+
+## Conclusion
+
+This project was not only a journey in technical development but also an exercise in client engagement and adaptive design. The skills and experiences gained from this project are invaluable and will undoubtedly influence my approach to future web development projects.
+
+
