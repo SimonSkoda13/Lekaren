@@ -1,5 +1,6 @@
-import "./globals.css";
+import "../globals.css";
 import { Poppins } from "next/font/google";
+import { Header } from "@/app/components/Header/Header";
 
 const poppins = Poppins({ subsets: ["latin"], weight: "400" });
 
@@ -23,7 +24,10 @@ export default function RootLayout({
         <link rel="icon" href="/logo.svg" />
       </head>
 
-      <body className={poppins.className}>{children}</body>
+      <body className={poppins.className}>
+        <Header />
+        {children}
+      </body>
     </html>
   );
 }

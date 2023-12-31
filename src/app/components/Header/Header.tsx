@@ -7,7 +7,7 @@ export interface HeaderProps {}
 export const Header = (props: HeaderProps) => {
   const {} = props;
   return (
-    <header className="cntn fixed w-full top-3 z-10">
+    <header className="cntn relative w-full top-3 z-10">
       <div className="flex bg-white rounded-full ">
         {/* logo */}
         <div className="flex justify-center items-center px-4">
